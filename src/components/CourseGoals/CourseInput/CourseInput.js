@@ -11,6 +11,7 @@ const FormControl = styled.div`
   font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
+  //props coming from FormControl component being implemented in the form
   color: ${props => props.invalid ? 'red' : 'black'}
 }
 
